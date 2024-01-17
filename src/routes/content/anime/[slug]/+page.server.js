@@ -1,11 +1,11 @@
 
-import { gogoanime } from "$lib/gogo";
+import { provider } from "$lib/gogo";
 export async function load({params}) {
-    console.log(params.slug)
-    await gogoanime.fetchAnimeInfo(params.slug).then((data) => {
-        console.log(data);
-    }) 
+   const res = await provider.fetchAnimeInfo(params.slug).then((data)=>{
+        return data
+    })
      return {
-        info: params.slug
+        info: params.slug,
+        anime: res
      }
 }

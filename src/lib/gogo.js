@@ -1,2 +1,2 @@
 import {ANIME} from '@consumet/extensions'
-export const gogoanime = new ANIME.Gogoanime();
+export const provider = new ANIME.Zoro();

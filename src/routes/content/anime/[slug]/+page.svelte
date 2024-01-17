@@ -1,8 +1,8 @@
 <script>
 export let data;
+const {anime} = data
 </script>
 
 <div>
-    welclome 
-    {JSON.stringify(data)}
+    <h2>{anime.title}</h2>
 </div>

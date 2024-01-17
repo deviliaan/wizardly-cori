@@ -12,7 +12,7 @@
 		<div class="w-full">
 			<div class="w-full">
 			<!-- content -->
-				<RecentEpisodes animes={data?.animes} type={data?.type}/>
+				<RecentEpisodes animes={data?.animes}/>
 			</div>
 		</div>
 		<div class="hidden md:block">
