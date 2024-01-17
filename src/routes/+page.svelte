@@ -3,9 +3,14 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>69 Anime Watch All Anime For Free</title>
 </svelte:head>
 
 <section class="text-center">
-	<h2 class="text-3xl font-bold">Wellcome to svelte</h2>
+	<div class="grid grid-cols-1 max-w-6xl mx-auto">
+		<div >
+		</div>
+		<div class="hidden md:block">
+		</div>
+	</div>
 </section>
