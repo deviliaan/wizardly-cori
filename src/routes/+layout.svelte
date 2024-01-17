@@ -5,7 +5,7 @@
 </script>
 
 <div class="app bg-slate-800">
-	<main>
+	<main class="flex flex-col min-h-screen">
     	<Navbar />
 		<slot />
 		<Footer />

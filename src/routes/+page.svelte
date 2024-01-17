@@ -7,12 +7,12 @@
 	<title>69 Anime Watch All Anime For Free</title>
 </svelte:head>
 
-<section class="text-center">
-	<div class="grid grid-cols-1 max-w-6xl mx-auto">
-		<div >
-			<div>
+<section class="">
+	<div class="grid grid-cols-1 w-full max-w-6xl">
+		<div class="w-full">
+			<div class="w-full">
 			<!-- content -->
-				<RecentEpisodes animes={data?.animes} />
+				<RecentEpisodes animes={data?.animes} type={data?.type}/>
 			</div>
 		</div>
 		<div class="hidden md:block">

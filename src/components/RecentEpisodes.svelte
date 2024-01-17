@@ -1,12 +1,12 @@
 <script>
-export let animes;
+export let animes,type;
 import Card from '../components/Card.svelte';
 </script>
 
-<section class="text-center mt-2">
-  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
+<section class="mt-2 pl-2 w-full">
+  <div class="grid grid-cols-2 md:grid-cols-3 w-full items-center lg:grid-cols-4 gap-2 max-w-6xl">
     {#each animes as anime}
-        <Card anime={anime}/>
+        <Card anime={anime} type={type}/>
     {/each}
   </div>
 </section>
