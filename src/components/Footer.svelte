@@ -12,5 +12,5 @@
         </FooterLinkGroup>
     </div>
     <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"/>
-    <FooterCopyright by="Flowbite" year={2024} />
+    <FooterCopyright by="69Animes" year={2024} />
 </Footer>
