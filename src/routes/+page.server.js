@@ -13,7 +13,6 @@ export async function load({url}) {
     return res
   });
     return {
-    name: 'test',
     animes: data.results,
     currentPage: data.currentPage,
     hasNextPage: data.hasNextPage
