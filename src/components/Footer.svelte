@@ -4,7 +4,7 @@
 
 <Footer footerType="logo">
     <div class="sm:flex sm:items-center sm:justify-between">
-        <FooterBrand href="https://flowbite.com" src="/images/flowbite-svelte-icon-logo.svg" alt="Flowbite"/>
+        <FooterBrand href="#" src="https://flowbite.com/docs/images/logo.svg" name="69Animes" alt="Flowbite"/>
         <FooterLinkGroup ulClass="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0">
             <FooterLink>About</FooterLink>
             <FooterLink>Privacy Policy</FooterLink>
