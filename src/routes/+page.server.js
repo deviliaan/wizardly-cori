@@ -15,6 +15,7 @@ export async function load({url}) {
     return {
     animes: data.results,
     currentPage: data.currentPage,
-    hasNextPage: data.hasNextPage
+    hasNextPage: data.hasNextPage,
+    type: type
   };
 }
